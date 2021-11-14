@@ -1,0 +1,23 @@
+.button {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  color: #ffffff;
+  background-color: #1e194b;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: none;
+  border: 1px solid #1e194b;
+  border-radius: 5px;
+}
+
+.button:hover {
+  border: 1px solid #1e194b;
+  background-color: #ffffff;
+  color: #1e194b;
+}
+
+@media (min-width: 768px) {
+  .button {
+    width: auto;
+  }
+}
